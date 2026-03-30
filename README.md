@@ -16,6 +16,13 @@ Este projeto consiste na modelagem e implementação de um sistema para controle
 ## 🗂️ Esquema Lógico
 O projeto conta com tabelas de Clientes, Veículos, Equipes, Mecânicos, Ordens de Serviço, Peças e Serviços, além de tabelas associativas para permitir múltiplos itens por OS.
 
+## Esquema Relacional
+Abaixo, apresento o diagrama que serviu de base para a construção do banco de dados:
+
+![Diagrama do Projeto](oficina.png)
+
+*O modelo acima foi refinado no script SQL para incluir as regras de negócio da oficina.*
+
 ## 📊 Queries de Exemplo
 As consultas presentes no script cobrem:
 - Agrupamentos e filtros com `HAVING`.
